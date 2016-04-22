@@ -1,5 +1,6 @@
 * {
   outline: 1px solid hsla(0, 0%, 0%, 0.2);
+  box-sizing: border-box;
 }
 
 /* Links */
@@ -11,12 +12,13 @@ a:visited {
   color: inherit;
 }
 
-/* Menu */
+/* Elements */
 
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: lightblue;
 }
 
 .brand {
@@ -35,7 +37,17 @@ ul {
 
 nav > ul > li {
   display: inline-block;
-
+}
+article {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+section {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+  display: inline-block;
 }
 
 /* button*/
@@ -61,6 +73,27 @@ nav > ul > li {
 }
 
 .huge {
-  width: 630px;
-  height: 300px;
+
+  background-color: red;
+  float: right;
+  width: 60%;
+
+}
+.stuff {
+  width: 100%;
+  clear: both;
+  background-color: green;
+}
+
+.fit {
+  padding: 5px;
+  margin: 5px;
+  width: 100%;
+  height: auto;
+}
+.small {
+  height: 120px;
+  width: 120px;
+  float: left;
+  padding: 10px;
 }
