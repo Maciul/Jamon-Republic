@@ -70,6 +70,22 @@ footer {
   align-items: center;
 }
 
+#myForm {
+  color: black;
+  text-align: center;
+  border: 3px solid red;
+  font-weight: bold;
+  padding: 5px;
+}
+
+p label {
+  display: block;
+}
+
+form p {
+  display: block;
+}
+
 .column {
   margin: 10px;
   flex-grow: 1;
